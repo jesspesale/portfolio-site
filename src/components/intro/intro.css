@@ -1,18 +1,41 @@
 
 .intro{
     display: flex; 
-    height: 50vh;
-    background-color: blue;
+    height: 100vh;
+    background-color: rgb(220, 162, 247);
 }
+
 .i-left{
     flex: 1;
 }
-.i-right{
-    flex: 1;
-}
+
+
 .i-left-wrapper{
     padding: 50px;
 }
-.i-intro{
 
+.i-intro{
+    font-size: 30px;
+    font-weight: 300px;
+}
+.i-name{
+    font-size: 60px;
+}
+.i-title{
+    height: 50px;
+    overflow: hidden;
+}
+
+
+.i-title-item{
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(6, 143, 109);
+    display: flex;
+    align-items: center;
+}
+
+.i-right{
+    flex: 1;
 }
