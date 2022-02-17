@@ -7,11 +7,17 @@
 
 .i-left{
     flex: 1;
+    display: flex;
 }
 
 
 .i-left-wrapper{
     padding: 50px;
+    height: 50%;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .i-intro{
@@ -19,11 +25,13 @@
     font-weight: 300px;
 }
 .i-name{
+    margin-top: -10px;
     font-size: 60px;
 }
 .i-title{
     height: 50px;
     overflow: hidden;
+    margin-top: -10px;
 }
 
 .i-title-wrapper{
@@ -40,7 +48,7 @@
         transform: translateY(-100px);
     }
     100%{
-        transform: translateY(-1500px);
+        transform: translateY(-150px);
     }
 }
 
