@@ -30,15 +30,14 @@
     font-size: 60px;
 }
 .i-title{
+    margin-top: -20px;
     height: 50px;
     overflow: hidden;
-    margin-top: -10px;
 }
 
 .i-title-wrapper{
     height: 100%;
     animation: move 10s ease-in-out infinite alternate;
-    position: absolute;
 }
 
 @keyframes move {
@@ -55,11 +54,12 @@
 
 .i-title-item{
     height: 50px;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     color: white;
     display: flex;
     align-items: center;
+    overflow: hidden;
 }
 
 .i-right{

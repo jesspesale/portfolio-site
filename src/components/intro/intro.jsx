@@ -19,13 +19,13 @@ const Intro = () => {
                 <div className="i-title-item">Job Seeker</div>
               </div>
             </div>
-            <div className="i-description">
+            <p className="i-description">
               I am a full-stack software developer from New York. With a
               background in math and business, coding is an amazing way to help
               solve real-wold problems in a creative way. I love that learning
               is a never ending process and I can't wait to see what new
               technologies I learn next!
-            </div>
+            </p>
           </div>
         </div>
         <div className="i-right">
