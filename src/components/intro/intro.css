@@ -26,6 +26,23 @@
     overflow: hidden;
 }
 
+.i-title-wrapper{
+    height: 100%;
+    animation: move 10s ease-in-out infinite alternate;
+
+}
+
+@keyframes move {
+    33%{
+        transform: translateY(-50px);
+    }
+    67%{
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translateY(-1500px);
+    }
+}
 
 .i-title-item{
     height: 50px;
