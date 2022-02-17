@@ -1,0 +1,12 @@
+
+.intro{
+    display: flex; 
+    height: 50vh;
+    background-color: blue
+}
+.i-left{
+    flex: 1;
+}
+.i-right{
+    flex: 1;
+}
