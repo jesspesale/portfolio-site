@@ -6,7 +6,7 @@ import Color from "../../images/color-flower.png"
 
 const Intro = () => {
     return (
-      <div className="intro">
+      <div className="intro" id="intro">
         <div className="i-left">
           <div className="i-bg"></div>
           <div className="i-left-wrapper">

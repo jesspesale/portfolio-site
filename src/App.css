@@ -4,17 +4,26 @@
 }
 .app {
   font-family: 'Cabin', sans-serif;
-  background-color: #cac7c7
-
+  background-color: #cac7c7;
+  
 }
   
 
-.sections{
+.sections-container{
   position: relative;
-  top: 60px; 
+  margin-top: 60px;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
 }
 
-.sections > * {
+.sections-container > * {
   width: 100%;
   height: calc(100vh - 60px);
+  scroll-snap-align: start;
+  position: relative;
 }
+/* .section{
+  width: 100%;
+  height: calc(100vh - 60px);
+  scroll-snap-align: start;
+} */
