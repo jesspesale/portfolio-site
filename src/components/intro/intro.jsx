@@ -1,7 +1,7 @@
 //  rce command to create component
 import React from 'react';
 import "./intro.css"
-import Color from "../../image/color-flower.jpeg"
+import Color from "../../images/color-flower.png"
 
 
 const Intro = () => {
