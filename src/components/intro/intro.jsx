@@ -29,7 +29,7 @@ const Intro = () => {
           </div>
         </div>
         <div className="i-right">
-          <img src={Color} className="i-image" />
+          <img src={Color} className="i-image" alt="colorful flower" />
         </div>
       </div>
     );

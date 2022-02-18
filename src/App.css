@@ -9,6 +9,9 @@
 }
   
 
-.section{
-    height: calc(100vh - 60px);
+.sections{
+  background-color: lightgreen;
+  height: calc(100vh - 60px);
+  position: relative;
+  top: 60px;
 }

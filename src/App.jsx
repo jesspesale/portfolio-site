@@ -10,7 +10,8 @@ function App() {
     <div className="app">
       <Navbar sticky="top"/>
       <div className="sections">
-        <Intro/>
+        {/* <Intro/> */}
+        Sections
         <About/>
         <Projects/>
         <Contact/>
