@@ -3,10 +3,12 @@
   padding: 0;
 }
 .app {
-  /* font-family: 'Poppins', sans-serif; */
   font-family: 'Cabin', sans-serif;
   background-color: #cac7c7
+
 }
+  
 
-
-
+.section{
+    height: calc(100vh - 60px);
+}
