@@ -1,7 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .app {
   /* font-family: 'Poppins', sans-serif; */
   font-family: 'Cabin', sans-serif;
-  /* background-color: #FEFEFE */
+  background-color: #cac7c7
 }
 
 
