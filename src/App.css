@@ -10,8 +10,11 @@
   
 
 .sections{
-  background-color: lightgreen;
-  height: calc(100vh - 60px);
   position: relative;
-  top: 60px;
+  top: 60px; 
+}
+
+.sections > * {
+  width: 100%;
+  height: calc(100vh - 60px);
 }

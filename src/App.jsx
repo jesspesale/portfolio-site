@@ -8,13 +8,12 @@ import Contact from './components/contact/contact'
 function App() {
   return (
     <div className="app">
-      <Navbar sticky="top"/>
+      <Navbar sticky="top" />
       <div className="sections">
-        {/* <Intro/> */}
-        Sections
-        <About/>
-        <Projects/>
-        <Contact/>
+        <Intro/>
+        <About className="section"/>
+        <Projects className="section"/>
+        <Contact className="section"/>
       </div>
     </div>
   );
