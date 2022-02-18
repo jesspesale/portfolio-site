@@ -5,12 +5,13 @@ const Navbar = () => {
     return(
         <div className="navbar">
             <div className="nav-wrapper">
-                    <h2>Navbar</h2>
                 <div className="nav-left">
-                    <a href=""></a>
+                    <a href="#contact">cont</a>
+                    <a href="#intro">intro</a>
                 </div>
+                <h1>Middle</h1>
                 <div className="nav-right">
-
+                    this is right
                 </div>
             </div>
         </div>
