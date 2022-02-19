@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="navbar">
         <div className="nav-wrapper">
           <div className="nav-left">
-            <a href="#intro" className="logo">
+            <a href="#intro" className="logo icon">
               JP
             </a>
             <div className="itemContainer">
