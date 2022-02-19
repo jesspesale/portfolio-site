@@ -11,10 +11,14 @@ const Navbar = () => {
             <a href="#intro" className="logo icon">
               JP
             </a>
-            <div className="itemContainer">
-              <PersonOutlineIcon fontSize="large" className="icon" />
+            <a  href="#about" className="about-icon">
+                <PersonOutlineIcon fontSize="large" className="icon" />
+                <h4 className="about-word">About</h4>
+            </a>
+            <a href="#contact" className="contact-icon">
               <MailOutlineIcon fontSize="large" className="icon" />
-            </div>
+                <h4 className="contact-word">Contact</h4>
+            </a>
           </div>
 
           <div className="nav-right">

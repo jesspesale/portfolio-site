@@ -19,7 +19,7 @@
 
 .sections-container > * {
   width: 100%;
-  height: calc(100vh - 60px);
+  height: calc(100vh - 70px);
   scroll-snap-align: start;
   position: relative;
 }
