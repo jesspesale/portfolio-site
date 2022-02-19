@@ -16,13 +16,13 @@ const Navbar = () => {
               <PersonOutlineIcon fontSize="large" className="icon" />
               <h4 className="about-word">About</h4>
             </a>
-            <a href="#contact" className="icon">
-              <MailOutlineIcon fontSize="large" className="icon" />
-              <h4 className="contact-word">Contact</h4>
-            </a>
             <a href="#projects" className="icon">
               <ArchiveOutlinedIcon fontSize="large" className="icon" />
               <h4 className="proj-word">Projects</h4>
+            </a>
+            <a href="#contact" className="icon">
+              <MailOutlineIcon fontSize="large" className="icon" />
+              <h4 className="contact-word">Contact</h4>
             </a>
           </div>
 

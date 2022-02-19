@@ -54,15 +54,19 @@
     text-decoration: none;
 }
 
-.menu{
+.nav-right{
+    
+}
+
+/* .menu{
     width: 32px;
     height: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
 }
 .span{
     width: 32px;
     height: 3px;
-}
-
-.nav-right{
-    
-}
+    background-color: black;
+} */
