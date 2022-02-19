@@ -1,4 +1,6 @@
 import "./navbar.css"
+import PersonOutlineIcon from "@material-ui/icons/PersonOutline";
+import MailOutlineIcon from "@material-ui/icons/MailOutline";
 
 const Navbar = () => {
 
@@ -9,14 +11,18 @@ const Navbar = () => {
             <a href="#intro" className="logo">
               JP
             </a>
+            <div className="itemContainer">
+              <PersonOutlineIcon fontSize="large" className="icon" />
+              <MailOutlineIcon fontSize="large" className="icon" />
+            </div>
           </div>
-          <a href="#contact">cont</a>
+
           <div className="nav-right">
-            <div className="menu">
+            {/* <div className="menu">
               <span className="line1"></span>
               <span className="line2"></span>
               <span className="line3"></span>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

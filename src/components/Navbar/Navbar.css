@@ -24,7 +24,8 @@
 }
 
 .nav-left{
-
+    display: flex;
+    align-items: center;
 }
 
 .nav-right{
