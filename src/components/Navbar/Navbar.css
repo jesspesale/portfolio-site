@@ -5,6 +5,7 @@
     position:fixed;  
     z-index: 1;
     top: 0;
+    /* border-bottom: 2px; */
 }
 
 .nav-wrapper{
@@ -28,4 +29,13 @@
 
 .nav-right{
     
+}
+
+.menu{
+    width: 32px;
+    height: 25px;
+}
+.span{
+    width: 32px;
+    height: 3px;
 }
