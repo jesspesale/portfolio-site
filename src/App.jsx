@@ -10,10 +10,10 @@ function App() {
     <div className="app">
       <Navbar sticky="top" />
       <div className="sections-container">
-          <Intro className="section" />
-          <About className="section" />
-          <Projects className="section" />
-          <Contact className="section" />
+        <Intro className="section" />
+        <About className="section" />
+        <Projects className="section" />
+        <Contact className="section" />
       </div>
     </div>
   );
