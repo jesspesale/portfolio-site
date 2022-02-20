@@ -6,7 +6,7 @@ const ProjectSection = () => {
 
   return (
     <div id="projects" className="projects">
-      <h2 className="proj-sec-title">Here are some of my projects:</h2>
+      <h2 className="proj-sec-title">Projects:</h2>
       <div className="project-items">
       {projects.map((project) => {
         return (

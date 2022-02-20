@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 .app {
   font-family: 'Cabin', sans-serif;
   background-color: lightgray;
@@ -13,18 +14,13 @@
   position: relative;
   margin-top: 60px;
   overflow-y: scroll;
-  
   scroll-snap-type: y mandatory;
 }
 
 .sections-container > * {
   width: 100%;
-  height: calc(100vh - 70px);
+  height: calc(100vh - 60px);
   scroll-snap-align: start;
   position: relative;
 }
-/* .section{
-  width: 100%;
-  height: calc(100vh - 60px);
-  scroll-snap-align: start;
-} */
+
