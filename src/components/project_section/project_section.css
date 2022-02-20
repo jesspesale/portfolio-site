@@ -1,4 +1,4 @@
-src/components/project_section/project_section.jsx/* .projects{
+/* .projects{
     background-color: lightgray;
     display: flex;
     flex-direction: column;
@@ -12,8 +12,8 @@ src/components/project_section/project_section.jsx/* .projects{
 } */
 
 .projects{
-    border: 3px solid #fff;
-    padding: 20px;
+    /* border: 7px solid rgb(66, 63, 63); */
+    /* padding: 20px; */
 }
 
 
