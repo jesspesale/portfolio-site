@@ -5,12 +5,15 @@ import ProjectItem from "../project_item/project_item";
 const ProjectSection = () => {
 
   return (
-    <div className="projects" id="projects">
+    <div id="projects">
       <h2>Projects</h2>
       {projects.map((project) => {
         return (
-          <ProjectItem project={project} key={project.id}/>
-        )
+          <ProjectItem
+            project={project}
+            key={project.id}
+          />
+        );
       })}
     </div>
   )
