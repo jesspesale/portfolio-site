@@ -9,14 +9,9 @@ const ProjectSection = () => {
       <h2>Projects</h2>
       {projects.map((project) => {
         return (
-          <ProjectItem project={project}/>
+          <ProjectItem project={project} key={project.id}/>
         )
       })}
-      <ul>
-          <li>
-
-          </li>
-      </ul>
     </div>
   )
 };
