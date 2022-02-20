@@ -11,10 +11,26 @@
     flex-wrap: wrap;
 } */
 
+/* pl */
 .projects{
-    /* border: 7px solid rgb(66, 63, 63); */
-    /* padding: 20px; */
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
 }
 
+.proj-sec-title{
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* pl-list */
+.project-items{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
