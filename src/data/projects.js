@@ -17,9 +17,8 @@ export const projects = [
   {
     id: 3,
     title: "Workout Tracker",
-    url: "https://travel-plannerr.netlify.app/",
     desc: "Use workout tracker to keep track of your workouts. Track the type of workout, and all the calories you burn for each set you do.",
-    git: ""
+    git: "https://github.com/jesspesale/workout_tracker_backend",
   },
 ];
 

@@ -3,22 +3,39 @@ import "./project_item.css"
 
 
 const ProjectItem = ({project}) => {
+
+    function checkUrl(){
+        if(project.url){
+            return (
+              <a
+                className="button"
+                type="submit"
+                target="_blank"
+                href={project.url}
+              >
+                View Project
+              </a>
+            );
+        }
+    }
+
     {console.log(project)}
     return (
       <div className="container">
         <div className="item">
-          <a target="_blank">
-            <h1 className="project-title">{project.title}</h1>
-            <p className="project-desc">{project.desc}</p>
-            <div className="buttons">
-              <a className="button" type="submit" href={project.url}>
-                View Project
-              </a>
-              <a className="button" type="submit" href={project.git}>
-                Github Repo
-              </a>
-            </div>
-          </a>
+          <h1 className="project-title">{project.title}</h1>
+          <p className="project-desc">{project.desc}</p>
+          <div className="buttons">
+            {checkUrl()}
+            <a
+              className="button"
+              type="submit"
+              target="_blank"
+              href={project.git}
+            >
+              Github Repo
+            </a>
+          </div>
         </div>
       </div>
     );
