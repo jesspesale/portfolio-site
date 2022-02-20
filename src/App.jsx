@@ -2,7 +2,7 @@ import './App.css';
 import Intro from './components/intro/intro';
 import Navbar from './components/navbar/navbar';
 import About from './components/about/about'
-import Projects from './components/projects/projects'
+import ProjectSection from "./components/project_section/project_section";
 import Contact from './components/contact/contact'
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <div className="sections-container">
         <Intro className="section" />
         <About className="section" />
-        <Projects className="section" />
+        <ProjectSection className="section" />
         <Contact className="section" />
       </div>
     </div>
