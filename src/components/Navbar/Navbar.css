@@ -3,7 +3,7 @@
     height: 70px;
     background-color: rgb(192, 191, 191);
     position:fixed;  
-    z-index: 2;
+    z-index: 4;
     top: 0;
     /* border-bottom: 2px; */
 }
