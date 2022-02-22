@@ -2,10 +2,17 @@
   /* background-color: lightblue; */
   height: 100vh;
   margin-top: 50px;
+  display: flex;
+  align-items: center;
 }
 
 .a-left{
-    flex: 1;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: relative; */
+  height: 100%;
 }
 
 .a-right{
@@ -22,5 +29,29 @@ clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
     position: absolute;
     top: 0;
     right: 0;  
+}
+
+.a-card-bg{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: rgb(5, 4, 4);
+}
+
+.a-text{
+    position: relative;
+    width: 100%;
+}
+
+.a-card{
+    margin-top: -50px;
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    border: 3px solid rgb(53, 51, 51);
+    margin: 5px 5px;
+    background-color: rgb(115, 248, 237);
+    padding: 10px;
+    z-index: 1;
 }
 
