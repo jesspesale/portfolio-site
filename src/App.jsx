@@ -11,7 +11,7 @@ function App() {
       <Navbar sticky="top" />
       <div className="sections-container">
         <Intro className="section" />
-        <About className="about-section" />
+        <About className="section" />
         <ProjectSection className="section" />
         <Contact className="section" />
       </div>
