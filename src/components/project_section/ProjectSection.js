@@ -1,6 +1,6 @@
 import "./project_section.css";
 import { projects } from "../../data/projects";
-import ProjectItem from "../project_item/project_item";
+import ProjectItem from "../project_item/ProjectItem";
 
 const ProjectSection = () => {
 
