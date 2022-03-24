@@ -1,30 +1,47 @@
-import React, { useState } from "react";
-// import Navigation from './Navigation';
-import About from "./About";
-import ProjectSection from "./Projects/ProjectSection";
-import Contact from "./Contact";
-// import Header from "./Header";
+import React, { useState } from "react"
+import About from "./About/About"
+import ProjectSection from "./Projects/ProjectSection"
+import Contact from "./Contact/Contact"
+import Navbar from "./Navbar/Navbar"
+import Resume from "./Resume/Resume"
+import Intro from "./Intro/Intro"
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState("Home");
+  const [currentPage, setCurrentPage] = useState("Home")
 
   const renderPage = () => {
-    if (currentPage === "Projects") {
-      return <ProjectSection />;
-    }
-    if (currentPage === "Contact") {
-      return <Contact />;
-    }
-    return <About />;
-  };
+    switch (currentPage) {
+      case "about":
+        return <About />
 
-  const handlePageChange = (page) => setCurrentPage(page);
+      case "projects":
+        return <ProjectSection />
+
+      case "contact":
+        return <Contact />
+
+      case "resume":
+        return <Resume />
+        default: 
+            return <Intro />
+    }
+  }
+
+  const handlePageChange = (page) => setCurrentPage(page)
 
   return (
     <div>
-      <Header handlePageChange={handlePageChange} currentPage={currentPage} />
+      <Navbar handlePageChange={handlePageChange} currentPage={currentPage} />
       {/* <Navigation currentPage={currentPage} handlePageChange={handlePageChange} /> */}
       {renderPage()}
     </div>
-  );
+  )
 }
+
+    // if (currentPage === "Projects") {
+    //   return <ProjectSection />
+    // }
+    // if (currentPage === "Contact") {
+    //   return <Contact />
+    // }
+    // return <Intro />

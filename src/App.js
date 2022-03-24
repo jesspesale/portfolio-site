@@ -1,6 +1,7 @@
 import './App.css';
-import Intro from './components/intro/Intro';
-import Navbar from './components/navbar/navbar';
+// import Intro from './components/Intro/Intro';
+// import Navbar from './components/Navbar/navbar';
+import PortfolioContainer from './components/PortfolioContainer';
 // import About from './components/about/About';
 // import ProjectSection from "./components/project_section/project_section";
 // import Contact from './components/contact/contact'
@@ -8,10 +9,8 @@ import Navbar from './components/navbar/navbar';
 function App() {
   return (
     <div className="app">
-      <div>
-        <Navbar sticky="top" />
-      </div>
-
+        <PortfolioContainer/>
+        {/* <Navbar sticky="top" /> */}
     </div>
   );
 }
