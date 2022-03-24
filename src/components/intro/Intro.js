@@ -9,7 +9,7 @@ const Intro = () => {
     return (
       <div>
         <div className="intro" id="intro">
-          <div className="i-left">
+          <div className="left-color">
             <div className="i-bg"></div>
             <div className="i-left-wrapper">
               <h2 className="i-intro">Hi, my name is</h2>
@@ -30,6 +30,7 @@ const Intro = () => {
               </p>
             </div>
           </div>
+
           <div className="i-right">
             <img src={Color} className="i-image" alt="colorful flower" />
           </div>
