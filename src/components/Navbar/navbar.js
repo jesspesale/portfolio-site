@@ -8,7 +8,7 @@ const Navbar = ({setCurrentPage}) => {
     return (
       <div className="navbar">
         <div className="nav-wrapper">
-          <div className="nav-left">
+          <div className="nav-items">
             <a href="#intro" className="logo" onClick={() => setCurrentPage("intro")}>
               JP
             </a>
@@ -25,7 +25,6 @@ const Navbar = ({setCurrentPage}) => {
               <h4 className="contact-word">Contact</h4>
             </a>
           </div>
-
         </div>
       </div>
     );
