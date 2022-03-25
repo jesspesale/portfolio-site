@@ -10,7 +10,7 @@ const ProjectItem = ({project}) => {
               <a
                 className="button"
                 type="submit"
-                target="_blank"
+                // target="_blank"
                 href={project.url}
               >
                 View Project
@@ -19,7 +19,7 @@ const ProjectItem = ({project}) => {
         }
     }
 
-    {console.log(project)}
+
     return (
       <div className="container">
         <div className="item">
@@ -30,7 +30,7 @@ const ProjectItem = ({project}) => {
             <a
               className="button"
               type="submit"
-              target="_blank"
+              // target="_blank"
               href={project.git}
             >
               Github Repo
