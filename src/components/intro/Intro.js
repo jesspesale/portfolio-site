@@ -1,7 +1,6 @@
 //  rce command to create component
 import React from 'react';
 import "./intro.css"
-import About from "../About/About"
 import Color from "../../images/color-flower.png"
 
 
@@ -32,10 +31,9 @@ const Intro = () => {
           </div>
 
           <div className="i-right">
-            <img src={Color} className="i-image" alt="colorful flower" />
+            <img src={Color} className="flower-image" alt="colorful flower" />
           </div>
         </div>
-          {/* <About /> */}
       </div>
     );
 }

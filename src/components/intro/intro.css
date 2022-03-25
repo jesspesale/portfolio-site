@@ -66,10 +66,10 @@
     height: 200vh;
 }
 
-.i-image{
+.flower-image{
     position: absolute;
     transform: rotate(320deg);
-    max-width: 100%;
+    max-width: 90%;
 }
 
 .i-bg{
