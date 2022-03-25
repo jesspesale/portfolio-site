@@ -13,7 +13,6 @@ export default function PortfolioContainer() {
     switch (currentPage) {
     //   case "intro":
     //     return <Intro />
-
       case "about":
         return <About />
 
@@ -37,16 +36,7 @@ export default function PortfolioContainer() {
     <div>
         <Navbar setCurrentPage={setCurrentPage}/>
       {/* <Navbar handlePageChange={handlePageChange} currentPage={currentPage} /> */}
-      {/* <Navigation currentPage={currentPage} handlePageChange={handlePageChange} /> */}
       {renderPage()}
     </div>
   )
 }
-
-    // if (currentPage === "Projects") {
-    //   return <ProjectSection />
-    // }
-    // if (currentPage === "Contact") {
-    //   return <Contact />
-    // }
-    // return <Intro />
