@@ -36,17 +36,9 @@
     text-decoration: none;
     margin-left: -2px;
 }
-.contact-word{
+.icon-text{
     margin-top: -5px;
-    margin-left: -8px;
-    text-decoration: none;
-}
-
-.proj-word{
-    margin-top: -5px;
-    margin-left: -8px;
-    text-decoration: none; 
-    color: black;
+    margin-left: -8px;  
 }
 
 .icon{
@@ -56,5 +48,8 @@
     text-decoration: none;
     font-size: 20px;
     vertical-align: middle;
-    
+}
+
+.icon:hover{
+    color:rgb(114, 112, 112)    
 }
