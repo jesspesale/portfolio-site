@@ -9,19 +9,35 @@ const Navbar = ({setCurrentPage}) => {
       <div className="navbar">
         <div className="nav-wrapper">
           <div className="nav-items">
-            <a href="#intro" className="logo" onClick={() => setCurrentPage("intro")}>
+            <a
+              href="#intro"
+              className="logo"
+              onClick={() => setCurrentPage("intro")}
+            >
               JP
             </a>
-            <a href="#about" className="icon" onClick={() => setCurrentPage("about")}>
-              <PersonOutlineIcon fontSize="large" className="icon" />
+            <a
+              href="#about"
+              className="icon"
+              onClick={() => setCurrentPage("about")}
+            >
+              <PersonOutlineIcon style={{ fontSize: 50 }} className="icon" />
               <h4 className="about-word">About</h4>
             </a>
-            <a href="#projects" className="icon" onClick={() => setCurrentPage("projects")}>
-              <ArchiveOutlinedIcon fontSize="large" className="icon" />
+            <a
+              href="#projects"
+              className="icon"
+              onClick={() => setCurrentPage("projects")}
+            >
+              <ArchiveOutlinedIcon style={{ fontSize: 50 }} className="icon" />
               <h4 className="proj-word">Projects</h4>
             </a>
-            <a href="#contact" className="icon" onClick={() => setCurrentPage("contact")}>
-              <MailOutlineIcon fontSize="large" className="icon" />
+            <a
+              href="#contact"
+              className="icon"
+              onClick={() => setCurrentPage("contact")}
+            >
+              <MailOutlineIcon style={{ fontSize: 50 }} className="icon" />
               <h4 className="contact-word">Contact</h4>
             </a>
           </div>
