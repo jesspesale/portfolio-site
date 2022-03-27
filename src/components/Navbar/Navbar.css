@@ -42,14 +42,15 @@
 }
 
 .icon{
-    margin-right: 30px;
+    margin-right: 40px;
+    /* margin: 40px; */
     align-items: center;
     color: black;
     text-decoration: none;
     font-size: 20px;
-    vertical-align: middle;
 }
 
 .icon:hover{
     color:rgb(114, 112, 112)    
 }
+

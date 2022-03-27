@@ -21,7 +21,7 @@ const Navbar = ({setCurrentPage}) => {
               className="icon"
               onClick={() => setCurrentPage("about")}
             >
-              <PersonOutlineIcon style={{ fontSize: 50 }} className="icon" />
+              <PersonOutlineIcon style={{ fontSize: 50 }} />
               <h4 className="about-word">About</h4>
             </a>
             <a
@@ -29,7 +29,7 @@ const Navbar = ({setCurrentPage}) => {
               className="icon"
               onClick={() => setCurrentPage("projects")}
             >
-              <ArchiveOutlinedIcon style={{ fontSize: 50 }} className="icon" />
+              <ArchiveOutlinedIcon style={{ fontSize: 50 }} />
               <h4 className="icon-text">Projects</h4>
             </a>
             <a
@@ -37,7 +37,7 @@ const Navbar = ({setCurrentPage}) => {
               className="icon"
               onClick={() => setCurrentPage("contact")}
             >
-              <MailOutlineIcon style={{ fontSize: 50 }} className="icon" />
+              <MailOutlineIcon style={{ fontSize: 50 }} />
               <h4 className="icon-text">Contact</h4>
             </a>
           </div>
