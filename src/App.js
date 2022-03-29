@@ -9,7 +9,7 @@ import PortfolioContainer from './components/PortfolioContainer';
 function App() {
   return (
     <div className="app">
-        <PortfolioContainer/>
+        <PortfolioContainer />
         {/* <Navbar sticky="top" /> */}
     </div>
   );

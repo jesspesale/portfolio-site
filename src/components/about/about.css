@@ -3,6 +3,8 @@
   margin-top: 50px;
   display: flex;
   align-items: center;
+  /* z-index: 3; */
+  background-color: linear-gradient(to right, #33ccff 0%, #9999ff 100%);
 }
 
 .a-left{
@@ -11,6 +13,7 @@
   align-items: center;
   justify-content: center;
   /* position: relative; */
+  background: linear-gradient(to right, #33ccff 0%, #9999ff 100%);
   height: 100%;
 }
 

@@ -11,8 +11,6 @@ export default function PortfolioContainer() {
 
   const renderPage = () => {
     switch (currentPage) {
-    //   case "intro":
-    //     return <Intro />
       case "about":
         return <About />
 
@@ -30,11 +28,11 @@ export default function PortfolioContainer() {
     }
   }
 
-//   const handlePageChange = (page) => setCurrentPage(page)
 
   return (
     <div>
         <Navbar setCurrentPage={setCurrentPage}/>
+        <div></div>
       {/* <Navbar handlePageChange={handlePageChange} currentPage={currentPage} /> */}
       {renderPage()}
     </div>
