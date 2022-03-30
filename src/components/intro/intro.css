@@ -5,35 +5,30 @@
     width: 500px;
 }
 
-
-.i-left{
+.left{
     padding: 50px;
-    float: left;
-    /* flex: 1; */
-    /* height: 50%; */
     display: flex;
+    float: left;
+    justify-content: space-between;
     flex-direction: column;
-    text-align: lwdt;
-    /* justify-content: space-between; */
-    /* position: relative; */
-    /* position: absolute; */
-    /* margin-top: 100px; */
 }
 
 .i-intro{
     font-size: 40px;
+    margin-top: 50px;
 }
-.i-name{
-    /* margin-top: -10px; */
-    font-size: 60px;
+.name{
+    margin-top: 10px;
+    font-size: 80px;
+    margin-bottom: 20px;
 }
-.i-title{
-    /* margin-top: -20px; */
+.title{
+    margin-top: 20px;
     height: 50px;
     overflow: hidden;
 }
 
-.i-title-wrapper{
+.title-wrapper{
     height: 100%;
     animation: move 6s ease-in-out infinite alternate;
 }
@@ -47,7 +42,7 @@
     }
 }
 
-.i-title-item{
+.title-item{
     height: 50px;
     font-size: 30px;
     font-weight: bold;
@@ -57,11 +52,15 @@
     overflow: hidden;
 }
 
-.i-right{
-    flex: 1;
-    float: right;
-    position: relative;
-    margin-top: 100px; 
+.description{
+    margin-top: 20px;
+}
+
+.right{
+    /* flex: 1; */
+    /* float: right; */
+    /* position: relative; */
+    /* margin-top: 100px;  */
 }
 
 .flower-image{
