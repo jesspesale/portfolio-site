@@ -1,10 +1,10 @@
 .about{
-  /* display: flex; */
+  display: flex; 
   align-items: center;
   /* z-index: 3; */
 }
 
-/* .a-left{
+.a-left{
   flex: 1;
   display: flex;
   align-items: center;
@@ -15,7 +15,7 @@
     flex: 1;
     display: flex; 
     justify-content: center;
-} */
+}
 
 .a-title{    
     z-index: 3;
@@ -27,10 +27,10 @@
 
 
 .a-text{
-    position: relative;
-    width: 100%;
+    /* position: relative;
+    width: 100%; */
 }
-
+/* 
 .a-card{
     width: 250px;
     height: 300px;
@@ -39,5 +39,5 @@
     background-color: rgb(241, 240, 178);
     padding: 10px;
     z-index: 1;
-}
+} */
 
