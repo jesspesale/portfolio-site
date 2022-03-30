@@ -5,11 +5,12 @@
 
 .app {
   font-family: 'Cabin', sans-serif;
-  background: linear-gradient(to right, #3fb3da 0%, #9999ff 100%);
   scroll-behavior: smooth;
-  height: 100vh;
 }
-  
+
+body{
+  background: linear-gradient(to right, #3fb3da 0%, #9999ff 100%);
+}
 
 .sections-container{
   position: relative;
