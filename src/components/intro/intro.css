@@ -1,27 +1,38 @@
 
 .intro{
-    display: flex; 
-    position: inherit;
-    width: 500px;
+    display: inline-block; 
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
 }
 
 .left{
     padding: 50px;
     display: flex;
     float: left;
-    justify-content: space-between;
+    width: 45%;
     flex-direction: column;
+}
+
+.right{
+    /* float: right; */
+    align-items: left;
+    width: 45%;
+    margin-left: auto;
+    margin-top: 10px; 
 }
 
 .i-intro{
     font-size: 40px;
     margin-top: 50px;
 }
+
 .name{
     margin-top: 10px;
     font-size: 80px;
     margin-bottom: 20px;
 }
+
 .title{
     margin-top: 20px;
     height: 50px;
@@ -56,16 +67,10 @@
     margin-top: 20px;
 }
 
-.right{
-    /* flex: 1; */
-    /* float: right; */
-    /* position: relative; */
-    /* margin-top: 100px;  */
-}
-
 .flower-image{
     position: absolute;
-    transform: rotate(320deg);
-    max-width: 90%;
+    justify-content: space-between;
+    /* transform: rotate(320deg); */
+    /* max-width: 90%; */
 }
 
