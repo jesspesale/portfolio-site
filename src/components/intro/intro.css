@@ -70,7 +70,16 @@
 .flower-image{
     position: absolute;
     justify-content: space-between;
+    animation: rotation 50s infinite linear;
     /* transform: rotate(320deg); */
-    /* max-width: 90%; */
+    /* max-width: 150%; */
 }
 
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
